@@ -1,0 +1,21 @@
+import Image from "next/image"
+import NavItems from "./NavItems"
+
+export default function DesktopNav() {
+    return (
+        <div className='px-2 hidden sm:flex justify-between '>
+            <Image src='/logo' alt='website logo' width={80} height={80} className='border-2 border-black' />
+
+            <ul className='flex justify-evenly items-center gap-5'>
+                <NavItems title='Home' path='/home' />
+                <NavItems title='About' path='/about' />
+                <NavItems title='Services' path='/service' />
+                <NavItems title='Contact' path='/contact' />
+                <NavItems title='Skill' path='/skills' />
+                <NavItems title='Projects' path='/projects' />
+                <NavItems title='Testimonials' path='/testimonials' />
+            </ul>
+
+        </div>
+    )
+}
