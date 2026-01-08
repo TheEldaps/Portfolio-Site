@@ -4,7 +4,8 @@ import NavItems from "./NavItems"
 export default function DesktopNav() {
     return (
         <div className='px-2 hidden sm:flex justify-between '>
-            <Image src='/logo' alt='website logo' width={80} height={80} className='border-2 border-black' />
+            {/* <Image src='/logo' alt='website logo' width={80} height={80} className='border-2 border-black' /> */}
+            <h2>PORTFOLIO</h2>
 
             <ul className='flex justify-evenly items-center gap-5'>
                 <NavItems title='Home' path='/home' />
