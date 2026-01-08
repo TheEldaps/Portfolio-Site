@@ -8,9 +8,9 @@ export default function Hero() {
             <h2 className='text-[cyan] font-bold mb-4'>A Frontend Developer & UI Enthusiast</h2>
             <p className='text-center mb-5 text-[#94a3b8]'>I craft modern responsive web apps with clean UI </p>
             <div className=' flex gap-3'>
-                <button className='bg-[#4f46e5]  rounded-md text-sm px-4 py-1'>View My Work</button>
+                <button className='bg-[#4f46e5]  rounded-md text-sm px-4 py-1 cursor-pointer hover:bg-[indigo]'>View My Work</button>
                 {/* <button className='bg-[purple] border rounded-md text-[white] px-2 py-1'>Download CV</button> */}
-                <button className='bg-[#6366f1]  rounded-md text-[white] px-2 py-1 cursor-pointer hover:bg-[]'>Contact Me
+                <button className='bg-[#6366f1]  rounded-md text-[white] px-2 py-1 cursor-pointer hover:bg-[indigo]'>Contact Me
                 </button>
             </div>
         </section>

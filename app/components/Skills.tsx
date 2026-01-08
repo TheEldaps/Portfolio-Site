@@ -17,7 +17,7 @@ import ZodLogo from '../../public/ZodLogo.png'
 
 export default function Skills() {
     return (
-        <section className='px-5 min-h-[100vh] mt-20'>
+        <section className='px-5 mt-20'>
             <h2 className='text-[#F8FAC]  text-3xl mb-2'>My Skills</h2>
 
             <p className='text-[#94a3b8] mb-10'>As Frontend developer, I use modern tools and technologies to build fast, responsive and visually appealing web applications</p>
