@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from "next/image"
 
+
 export default function ProjectCard(
     { image, title, description, livelink, github }:
         { image: StaticImageData, title: string, description: string, livelink: string, github: string }) {

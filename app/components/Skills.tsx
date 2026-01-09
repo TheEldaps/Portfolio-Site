@@ -1,4 +1,7 @@
 import SkillCard from "./SkillCard"
+import SectionHeader from "./SectionHeader"
+import SectionDescription from "./SectionDescription"
+
 import GsapLogo from '../../public/Gsaplogo.png'
 import CSSLogo from '../../public/CSSLogo.png'
 import FigmaLogo from '../../public/FigmaLogo.png'
@@ -18,11 +21,11 @@ import ZodLogo from '../../public/ZodLogo.png'
 export default function Skills() {
     return (
         <section className='px-5 mt-20 mb-20'>
-            <h2 className='text-[#F8FAC]  text-3xl mb-2'>My Skills</h2>
+            <SectionHeader title='My Skills' />
 
-            <p className='text-[#94a3b8] mb-10'>As Frontend developer, I use modern tools and technologies to build fast, responsive and visually appealing web applications</p>
+            <SectionDescription description='As Frontend developer, I use modern tools and technologies to build fast, responsive and visually appealing web applications' />
 
-            <div className='flex flex-wrap justify-evenly gap-[5%] gap-y-12.5'>
+            <div className='flex flex-wrap justify-evenly gap-[5%] gap-y-12.5 mt-10'>
                 <SkillCard skill='HTML' image={HTMLLogo} />
                 <SkillCard skill='CSS' image={CSSLogo} />
                 <SkillCard skill='Javascript' image={JavascriptLogo} />

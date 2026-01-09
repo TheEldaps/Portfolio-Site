@@ -1,10 +1,10 @@
 import Image from "next/image"
 import PortfolioImage from '../../public/PortfolioImage 1.png'
-
+import SectionHeader from "./SectionHeader"
 export default function About() {
     return (
         <section className='flex flex-col md:flex-row pb-10 px-5 mt-5'>
-            <h2 className='text-[#F8FAC]  text-3xl mb-2 '>About Me</h2>
+            <SectionHeader title='About Me' />
             <div>
                 <Image src={PortfolioImage} width={800} height={800} alt='My picture' className='border rounded ' />
             </div>
