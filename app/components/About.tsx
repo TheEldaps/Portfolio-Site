@@ -1,5 +1,5 @@
 import Image from "next/image"
-import PortfolioImage from '../../public/PorfolioImage 1.jpg'
+import PortfolioImage from '../../public/PortfolioImage 1.png'
 
 export default function About() {
     return (
