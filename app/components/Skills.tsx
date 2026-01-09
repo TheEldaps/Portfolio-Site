@@ -17,12 +17,12 @@ import ZodLogo from '../../public/ZodLogo.png'
 
 export default function Skills() {
     return (
-        <section className='px-5 mt-20'>
+        <section className='px-5 mt-20 mb-20'>
             <h2 className='text-[#F8FAC]  text-3xl mb-2'>My Skills</h2>
 
             <p className='text-[#94a3b8] mb-10'>As Frontend developer, I use modern tools and technologies to build fast, responsive and visually appealing web applications</p>
 
-            <div className='flex flex-wrap gap-[5%] gap-y-12.5'>
+            <div className='flex flex-wrap justify-evenly gap-[5%] gap-y-12.5'>
                 <SkillCard skill='HTML' image={HTMLLogo} />
                 <SkillCard skill='CSS' image={CSSLogo} />
                 <SkillCard skill='Javascript' image={JavascriptLogo} />

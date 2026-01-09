@@ -5,7 +5,7 @@ export default function Hero() {
         <section className='h-[60vh] border-b md:h-screen flex flex-col items-center justify-center px-5'>
 
             <h1 className='text-[#f8fafc] text-4xl md:text-6xl lg:text-9xl text-center font-bold mb-5' >Hi, I'm James Oluwatobiloba.  </h1>
-            <h2 className='text-[cyan] font-bold mb-4'>A Frontend Developer & UI Enthusiast</h2>
+            <h2 className='text-[#22D3EE] font-bold mb-4'>A Frontend Developer & UI Enthusiast</h2>
             <p className='text-center mb-5 text-[#94a3b8]'>I craft modern responsive web apps with clean UI </p>
             <div className=' flex gap-3'>
                 <button className='bg-[#4f46e5]  rounded-md text-sm px-4 py-1 cursor-pointer hover:bg-[indigo]'>View My Work</button>
