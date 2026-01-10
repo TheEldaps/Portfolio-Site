@@ -25,6 +25,14 @@ export default function Contact() {
                     </div>
                     <button>Send Message</button>
                 </form>
+
+                <section>
+                    <h3>Let's Connect</h3>
+                    <p>I'm always excited to work on new projects and collaborate with new people. Whether you have a specific project in mind or just want to explore possibilities, ill love to hear from you </p>
+                    <div>
+
+                    </div>
+                </section>
             </section>
         </section>
     )
