@@ -7,9 +7,25 @@ export default function Contact() {
             <SectionHeader title='Get in Touch' />
             <SectionDescription description='Have a project in mind or just want to say hello? Drop me a message and lets create something amazing together' />
 
-            <form action="">
+            <section>
+                <form action="">
 
-            </form>
+                    <div>
+                        <label htmlFor="name">Name</label>
+                        <input type="text" id='name' />
+                    </div>
+                    <div>
+                        <label htmlFor="name">Email</label>
+                        <input type="text" id='email' />
+                    </div>
+
+                    <div>
+                        <label htmlFor="message">Message</label>
+                        <textarea id='message' cols={3}></textarea>
+                    </div>
+                    <button>Send Message</button>
+                </form>
+            </section>
         </section>
     )
 }

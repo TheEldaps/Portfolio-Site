@@ -39,26 +39,13 @@ export default function About() {
 
 
             </div >
-            <div className='flex justify-between text-[#94a3b8] font-[spectral] text-[30px] mt-20'>
+            <div className='flex flex-col gap-10 md:flex-row md:flex-wrap items-center justify-between text-[#94a3b8] font-[spectral] text-[30px] mt-20'>
                 <Badge animation={TickMark} title='3 years experience' />
 
 
-                {/* <article className='flex flex-col md:flex-row items-center border rounded-lg mx-2 px-2'>
-                    <Lottie animationData={TickMark} loop={true} className='md:w-[30%] max-w-25' />
-                    <p>3 years experience</p>
-                </article> */}
-
                 <Badge animation={TrophyAnimation} title='6 Projects Completed' />
 
-                {/* <article className='flex items-center border rounded-lg mx-2 px-2'>
-                    <Lottie animationData={TrophyAnimation} loop={true} className='md:w-[30%] max-w-25' />
-                    <p>6 Projects Completed</p>
-                </article> */}
 
-                {/* <article className='flex items-center border rounded-lg mx-2 px-2'>
-                    <Lottie animationData={CongratulationsBadge} loop={true} className='md:w-[30%] max-w-25' />
-                    <p>100% Client Satisfaction</p>
-                </article> */}
                 <Badge animation={CongratulationsBadge} title='100% Client Satisfaction' />
             </div>
 
