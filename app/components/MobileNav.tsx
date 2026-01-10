@@ -25,11 +25,10 @@ export default function MobileNav() {
                 <ul className='flex flex-col gap-2 border-2 sm:hidden'>
                     <NavItems title='Home' path='/home' />
                     <NavItems title='About' path='/about' />
-                    <NavItems title='Services' path='/service' />
                     <NavItems title='Contact' path='/contact' />
                     <NavItems title='Skill' path='/skills' />
                     <NavItems title='Projects' path='/projects' />
-                    <NavItems title='Testimonials' path='/testimonials' />
+
                 </ul>
             )
             }

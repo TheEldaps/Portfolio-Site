@@ -1,6 +1,34 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from 'next/font/local'
 import "./globals.css";
+
+const spectral = localFont({
+  src: [
+    {
+      path: '../public/fonts/Spectral-regular.woff2',
+    },
+  ],
+  variable: '--font-spectral'
+});
+
+const DMSerif = localFont({
+  src: [
+    {
+      path: '../public/fonts/DMSerifDisplay-Regular.woff2',
+    },
+  ],
+  variable: '--font-DMSerif'
+});
+
+const DMSans = localFont({
+  src: [
+    {
+      path: '../public/fonts/DMSans-9ptRegular.woff2',
+    },
+  ],
+  variable: '--font-DMSans'
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable}  antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${spectral.variable} ${DMSerif.variable}  antialiased`}
       >
 
         {children}

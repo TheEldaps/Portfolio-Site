@@ -20,7 +20,7 @@ import ZodLogo from '../../public/ZodLogo.png'
 
 export default function Skills() {
     return (
-        <section className='px-5 mt-20 mb-20'>
+        <section className='px-5 md:px-10 lg:px-20 mt-20 mb-20 '>
             <SectionHeader title='My Skills' />
 
             <SectionDescription description='As Frontend developer, I use modern tools and technologies to build fast, responsive and visually appealing web applications' />
