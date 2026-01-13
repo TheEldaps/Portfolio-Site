@@ -5,6 +5,7 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 
+
 export default function page() {
   return (
     <section className='bg-[#0B0F19] text-white'>

@@ -23,21 +23,21 @@ export default function About() {
                 trigger: ".about-image",
                 start: "top 80%",
             },
-            x: -100,
+            x: -500,
             opacity: 0,
             duration: 1,
             ease: "expo.out",
         })
 
         // Text paragraphs fade + rise
-        gsap.from(".about-text p", {
+        gsap.from(".about-text", {
             scrollTrigger: {
                 trigger: ".about-text",
                 start: "top 80%",
             },
             y: 30,
             opacity: 0,
-            stagger: 0.12,
+            stagger: 1,
             duration: 0.9,
             ease: "expo.out",
         })
@@ -76,14 +76,14 @@ export default function About() {
                 </div>
 
                 {/* Text */}
-                <div className='mt-5 font-[spectral] about-text text-[#94a3b8] text-[22px] flex flex-col gap-4'>
-                    <p> I’m a passionate Frontend Developer who loves turning ideas into beautiful, responsive, and user-friendly web experiences. My journey into tech started with a deep curiosity about how websites work, and over time, that curiosity grew into a strong commitment to mastering modern web development.</p>
-                    <p> I began by learning the fundamentals of HTML, CSS, and JavaScript, and gradually moved into building more complex interfaces using React and modern tooling like Vite, Tailwind CSS, and Git. Along the way, I discovered that what excites me most is not just writing code, but crafting clean, intuitive, and visually appealing user interfaces that people actually enjoy using.</p>
-                    <p> I’ve had the opportunity to gain real-world experience during my internship at Codemania (October 2024 – March 2025), where I worked on real projects, collaborated with other developers, and learned how professional software is built, structured, and maintained. That experience helped me grow not just technically, but also in how I think about problem-solving, teamwork, and building scalable interfaces.</p>
-                    <p> Over time, I’ve developed a strong focus on frontend engineering with React, and I’m constantly improving my skills in component-based architecture, responsive design, animations, performance optimization, and clean UI systems. I enjoy working with tools like Tailwind CSS, GSAP, and modern UI libraries to create interfaces that feel smooth, fast, and polished.</p>
-                    <p> Beyond just building websites, I’m also interested in how products are designed, how users interact with interfaces, and how good UI/UX can make complex things feel simple. That’s why I pay attention to details like spacing, typography, animations, and overall visual hierarchy in my projects.</p>
-                    <p> My long-term goal is to grow into a world-class frontend engineer and eventually expand into full-stack and more advanced product development. For now, I’m focused on sharpening my skills, building impressive projects, and working with teams or companies that value quality, creativity, and good engineering practices.</p>
-                    <p> When I’m not coding, I enjoy learning about trading systems, exploring new technologies, and continuously challenging myself to get better at what I do.</p>
+                <div className='mt-5 font-[spectral]  text-[#94a3b8] text-[22px] flex flex-col gap-4'>
+                    <p className='about-text'> I’m a passionate Frontend Developer who loves turning ideas into beautiful, responsive, and user-friendly web experiences. My journey into tech started with a deep curiosity about how websites work, and over time, that curiosity grew into a strong commitment to mastering modern web development.</p>
+                    <p className='about-text'> I began by learning the fundamentals of HTML, CSS, and JavaScript, and gradually moved into building more complex interfaces using React and modern tooling like Vite, Tailwind CSS, and Git. Along the way, I discovered that what excites me most is not just writing code, but crafting clean, intuitive, and visually appealing user interfaces that people actually enjoy using.</p>
+                    <p className='about-text'> I’ve had the opportunity to gain real-world experience during my internship at Codemania (October 2024 – March 2025), where I worked on real projects, collaborated with other developers, and learned how professional software is built, structured, and maintained. That experience helped me grow not just technically, but also in how I think about problem-solving, teamwork, and building scalable interfaces.</p>
+                    <p className='about-text'> Over time, I’ve developed a strong focus on frontend engineering with React, and I’m constantly improving my skills in component-based architecture, responsive design, animations, performance optimization, and clean UI systems. I enjoy working with tools like Tailwind CSS, GSAP, and modern UI libraries to create interfaces that feel smooth, fast, and polished.</p>
+                    <p className='about-text'> Beyond just building websites, I’m also interested in how products are designed, how users interact with interfaces, and how good UI/UX can make complex things feel simple. That’s why I pay attention to details like spacing, typography, animations, and overall visual hierarchy in my projects.</p>
+                    <p className='about-text'> My long-term goal is to grow into a world-class frontend engineer and eventually expand into full-stack and more advanced product development. For now, I’m focused on sharpening my skills, building impressive projects, and working with teams or companies that value quality, creativity, and good engineering practices.</p>
+                    <p className='about-text'> When I’m not coding, I enjoy learning about trading systems, exploring new technologies, and continuously challenging myself to get better at what I do.</p>
                 </div>
             </div>
 
