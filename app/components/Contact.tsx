@@ -1,6 +1,11 @@
 import SectionHeader from "./SectionHeader"
 import SectionDescription from "./SectionDescription"
 import ContactCard from "./ContactCard"
+import Lottie from "lottie-react"
+import CallAnimation from '../../public/Call ringing animation.json'
+import WhatsappAnimation from '../../public/whatsapp loop.json'
+import GmailAnimation from '../../public/Gmail Loading ICON.json'
+
 
 export default function Contact() {
     return (
@@ -8,7 +13,7 @@ export default function Contact() {
             <SectionHeader title='Get in Touch' />
             <SectionDescription description='Have a project in mind or just want to say hello? Drop me a message and lets create something amazing together' />
 
-            <section className='md:flex gap-10 max-w-[80%] py-10 mx-auto border'>
+            <section className='md:flex mt-20 gap-10 max-w-[80%] py-10 mx-auto border'>
                 <form action="" className='border py-5 px-5 mb-5 rounded-3xl min-w-[50%]'>
 
                     <div className="mb-3">
@@ -30,11 +35,11 @@ export default function Contact() {
                 <section className=''>
 
                     <h3 className='font-[DMSerif] text-lg mb-2'>Let's Connect</h3>
-                    <p>I'm always excited to work on new projects and collaborate with new people. Whether you have a specific project in mind or just want to explore possibilities, i'll love to hear from you </p>
+                    <p className="mb-10">I'm always excited to work on new projects and collaborate with new people. Whether you have a specific project in mind or just want to explore possibilities, i'll love to hear from you </p>
                     <div>
-                        <ContactCard title='Email' data='Adejames97@gmail.com' image={ } />
-                        <ContactCard title='Phone' data='+2348080392216' image={ } />
-                        <ContactCard title='Whatsapp' data='+2348080392216' image={ } />
+                        <ContactCard title='Email' data='Adejames97@gmail.com' lottieFile={GmailAnimation} />
+                        <ContactCard title='Phone' data='+2348080392216' lottieFile={CallAnimation} />
+                        <ContactCard title='Whatsapp' data='+2348080392216' lottieFile={WhatsappAnimation} />
 
                     </div>
                 </section>
