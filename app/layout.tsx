@@ -6,7 +6,7 @@ import "./globals.css";
 const spectral = localFont({
   src: [
     {
-      path: '../public/fonts/Spectral-regular.woff2',
+      path: '../public/fonts/Spectral-Regular.woff2',
     },
   ],
   variable: '--font-spectral'
@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${spectral.variable} ${DMSerif.variable}  antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${spectral.variable} ${DMSerif.variable} ${DMSans.variable}  antialiased`}
       >
 
         {children}
