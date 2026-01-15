@@ -14,7 +14,7 @@ export default function Contact() {
             <SectionDescription description='Have a project in mind or just want to say hello? Drop me a message and lets create something amazing together' />
 
             <section className='md:flex gap-10 py-10 mx-auto md:items-center'>
-                <form action="" className='border-2 border-[#090d1674] py-5 px-5 mb-20 md:mb-0 rounded-3xl mx-auto bg-[#111827cc] md:min-w-[50%] max-w-100 md:h-125 '>
+                <form action="" className='border-2 border-[#090d1674] py-5 px-5 mb-20 md:mb-0 rounded-3xl mx-auto bg-[#111827cc] md:min-w-[40%] max-w-100 md:h-125 '>
 
                     <div className="mb-3">
                         <label htmlFor="name" className='font-[DMSerif]'>Name:</label>
