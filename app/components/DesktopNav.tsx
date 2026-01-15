@@ -8,11 +8,11 @@ export default function DesktopNav() {
             <h2>PORTFOLIO</h2>
 
             <ul className='flex justify-evenly items-center gap-5'>
-                <NavItems title='Home' path='/home' />
-                <NavItems title='About' path='/about' />
-                <NavItems title='Contact' path='/contact' />
-                <NavItems title='Skill' path='/skills' />
-                <NavItems title='Projects' path='/projects' />
+                <NavItems title='Home' path='#home' />
+                <NavItems title='About' path='#about-me' />
+                <NavItems title='Contact' path='#contact-me' />
+                <NavItems title='Skill' path='#skills' />
+                <NavItems title='Projects' path='#projects' />
 
             </ul>
 

@@ -13,9 +13,9 @@ export default function ProjectCard(
                 <p className='text-[16px]'>{description}</p>
                 <div className='flex justify-between pt-5'>
 
-                    <button className='bg-[#4f46e5]  rounded-md text-[10px] md:text-sm px-2 sm:px-4 py-1 font-bold cursor-pointer hover:bg-[indigo]'>Live Demo</button>
+                    <button className='bg-[#4e46e5]  rounded-md text-[10px] md:text-sm px-2 sm:px-4 py-1 cursor-pointer hover:bg-[#4e46e5d4]'>Live Demo</button>
 
-                    <button className='bg-[]  rounded-md border-[#168b9d] border  text-[10px] md:text-sm px-2 sm:px-4 py-1 cursor-pointer font-bold hover:bg-[indigo]'>More Details</button>
+                    <button className='bg-[]  rounded-md border-[#168b9d] border  text-[10px] md:text-sm px-2 sm:px-4 py-1 cursor-pointer hover:bg-[#242d43]'>More Details</button>
 
 
                 </div>
