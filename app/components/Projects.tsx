@@ -16,15 +16,15 @@ export default function Projects() {
             <SectionDescription description='A curated collection of projects demonstrating my expertise in building modern, vidually appealing web applications' />
 
             <section className='flex flex-col md:flex-row flex-wrap gap-10 pt-10 '>
-                <ProjectCard image={TechNestImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://technest-jobs.vercel.app/' github='github.com' />
+                <ProjectCard image={TechNestImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://technest-jobs.vercel.app/' github='https://github.com/TheEldaps/Job-Board' />
 
-                <ProjectCard image={GamePointImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://game-point-chi.vercel.app/' github='github.com' />
+                <ProjectCard image={GamePointImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://game-point-chi.vercel.app/' github='https://github.com/TheEldaps/GamePoint' />
 
-                <ProjectCard image={TravelEventsImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://travel-events-chi.vercel.app/' github='github.com' />
+                <ProjectCard image={TravelEventsImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://travel-events-chi.vercel.app/' github='https://github.com/TheEldaps/Travel-Events' />
 
-                <ProjectCard image={JadooImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://jadoo-travels-self.vercel.app/' github='github.com' />
+                <ProjectCard image={JadooImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://jadoo-travels-self.vercel.app/' github='https://github.com/TheEldaps/Jadoo-Travels' />
 
-                <ProjectCard image={PortfolioImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://portfolio-site-1-rho.vercel.app/' github='github.com' />
+                <ProjectCard image={PortfolioImg} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://portfolio-site-1-rho.vercel.app/' github='https://github.com/TheEldaps/Portfolio-Site' />
 
                 <ProjectCard image={ProjectImage} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='github.com' github='github.com' />
 

@@ -3,7 +3,7 @@ import DesktopNav from './DesktopNav'
 
 export default function Header() {
     return (
-        <header className='shadow-black shadow-md py-2 fixed w-full backdrop-blur-sm z-1'>
+        <header className='shadow-black shadow-md py-2 fixed w-full backdrop-blur-sm z-1 font-[DMSans]'>
             <nav className='max-w-300 mx-auto'>
                 <MobileNav />
                 <DesktopNav />

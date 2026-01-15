@@ -50,9 +50,9 @@ export default function Hero() {
             <h2 className='hero-item text-[#22D3EE] md:text-4xl text-[20px] font-bold mb-2 text-center '>A Frontend Developer & UI Enthusiast</h2>
             <p className='hero-item text-center mb-5 text-[#94a3b8] font-[DMSans] text-[14px] '>I craft modern responsive web apps with clean UI </p>
             <div className='hero-item flex gap-3 justify-between md:w-[45%] max-w-100'>
-                <button className='bg-[#4f46e5]  rounded-md md:text-lg md:px-6 md:py-2 text-sm font-[Spectral]  px-4 py-1 cursor-pointer hover:bg-[#4e46e5d4]'>View My Work</button>
+                <button className='bg-[#4f46e5]  rounded-md md:text-lg md:px-6 md:py-2 text-sm font-[DMSans]  px-4 py-1 cursor-pointer hover:bg-[#4e46e5d4]'>View My Work</button>
                 {/* <button className='bg-[purple] border rounded-md text-[white] px-2 py-1'>Download CV</button> */}
-                <button className='bg-[#4f46e5]  rounded-md  md:text-lg md:px-6 md:py-2 font-[Spectral] px-4 py-1 cursor-pointer hover:bg-[#4e46e5d4]'><Link href='#contact-me'>Contact Me</Link>
+                <button className='bg-[#4f46e5]  rounded-md  md:text-lg md:px-6 md:py-2 font-[DMSans] px-4 py-1 cursor-pointer hover:bg-[#4e46e5d4]'><Link href='#contact-me'>Contact Me</Link>
                 </button>
             </div>
 
