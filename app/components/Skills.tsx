@@ -20,7 +20,7 @@ import ZodLogo from '../../public/ZodLogo.png'
 
 export default function Skills() {
     return (
-        <section id='skills' className='px-5 py-5 md:px-10 lg:px-20 pt-10 pb-20  bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
+        <section id='skills' className='px-5 md:pt-15 md:pb-15 lg:pb-40 md:px-10 lg:px-20 pt-10 pb-20  bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
             <SectionHeader title='My Skills' />
 
             <SectionDescription description='As Frontend developer, I use modern tools and technologies to build fast, responsive and visually appealing web applications' />

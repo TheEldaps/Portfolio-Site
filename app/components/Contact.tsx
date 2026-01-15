@@ -9,7 +9,7 @@ import GmailAnimation from '../../public/Gmail Loading ICON.json'
 
 export default function Contact() {
     return (
-        <section id='contact-me' className='pt-10 px-5 min-h-screen md:px-10 lg:px-20 lg:pt-20 font-[spectral] bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
+        <section id='contact-me' className='pt-10 md:pt-15 px-5 min-h-screen md:px-10 lg:px-20 font-[spectral] bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
             <SectionHeader title='Get in Touch' />
             <SectionDescription description='Have a project in mind or just want to say hello? Drop me a message and lets create something amazing together' />
 

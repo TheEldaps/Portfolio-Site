@@ -17,7 +17,7 @@ export default function MobileNav() {
                     onClick={() => {
                         setOpenNav(prev => !prev)
                     }}
-                    className=' p-1  flex flex-col gap-1 text-[1.5rem] cursor-pointer hover:bg-[#434141] hover:border-[#0e0e0e66] '>{
+                    className=' p-1  flex flex-col gap-1 text-[1.5rem] cursor-pointer hover:bg-[#4f46e5] hover:border-[#0e0e0e66] '>{
                         openNav ?
                             ('✕') :
                             (
