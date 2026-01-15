@@ -21,26 +21,29 @@ export default function About() {
         gsap.from(".about-image", {
             scrollTrigger: {
                 trigger: ".about-image",
-                start: "top 80%",
+                start: "top 90%", // when image top reaches 80% of viewport
             },
             x: -500,
             opacity: 0,
             duration: 1,
             ease: "expo.out",
-        })
+        });
 
-        // Text paragraphs fade + rise
-        gsap.from(".about-text", {
-            scrollTrigger: {
-                trigger: ".about-text",
-                start: "top 80%",
-            },
-            y: 30,
-            opacity: 0,
-            stagger: 1,
-            duration: 0.9,
-            ease: "expo.out",
-        })
+        // Text paragraphs fade in + rise individually on scroll
+        const paragraphs = document.querySelectorAll(".about-text");
+        paragraphs.forEach((p) => {
+            gsap.from(p, {
+                scrollTrigger: {
+                    trigger: p,             // each paragraph triggers individually
+                    start: "top 90%",       // when paragraph top reaches 85% of viewport
+                    toggleActions: "play none none none", // play once
+                },
+                y: 60,                    // move up from 30px below
+                opacity: 0,               // start fully transparent
+                duration: 3,
+                ease: "expo.out",
+            });
+        });
 
         // Badges pop
         gsap.from(".about-badges > *", {
@@ -51,10 +54,11 @@ export default function About() {
             scale: 0.8,
             opacity: 0,
             stagger: 0.15,
-            duration: 0.8,
-            ease: "back.out(1.7)", // gives nice bounce
-        })
-    }, [])
+            duration: 2,
+            ease: "back.out(1.7)", // bounce effect
+        });
+    }, []);
+
 
     return (
         <section id='about-me' className='pt-5 md:pt-15 lg:pb-40 pb-20 px-20 md:px-10 lg:px-20 mt-5 bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>

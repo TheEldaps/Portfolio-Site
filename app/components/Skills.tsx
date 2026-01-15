@@ -1,3 +1,8 @@
+'use client'
+import { useEffect } from "react"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
+
 import SkillCard from "./SkillCard"
 import SectionHeader from "./SectionHeader"
 import SectionDescription from "./SectionDescription"
@@ -17,8 +22,29 @@ import ZodLogo from '../../public/ZodLogo.png'
 
 
 
+gsap.registerPlugin(ScrollTrigger)
+
+
 
 export default function Skills() {
+    useEffect(() => {
+        const cards = document.querySelectorAll(".skill-card");
+
+        cards.forEach((card) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: "top 90%",
+                    toggleActions: "play none none none",
+                },
+                scale: 0,
+                opacity: 0,
+                duration: 1,
+                ease: "back.out(1.7)",
+            });
+        });
+    }, []);
+
     return (
         <section id='skills' className='px-5 md:pt-15 md:pb-15 lg:pb-40 md:px-10 lg:px-20 pt-10 pb-20  bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
             <SectionHeader title='My Skills' />
