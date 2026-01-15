@@ -57,7 +57,7 @@ export default function About() {
     }, [])
 
     return (
-        <section id='about-me' className='py-5 px-10 md:px-10 lg:px-20 mt-5 bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
+        <section id='about-me' className='pt-5 pb-20 px-20 md:px-10 lg:px-20 mt-5 bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
 
             {/* Section Header */}
             <SectionHeader title='About Me' />
