@@ -37,6 +37,8 @@ export default function Projects() {
         });
     }, []);
 
+    const LizaCommerce = <div>Liza Mart is coming Soon. Watchout!</div>
+
     return (
         <section id='projects' className='  pt-10 md:pt-15 pb-20 lg:pb-40 px-5 md:px-10 lg:px-20 bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
 
@@ -54,7 +56,7 @@ export default function Projects() {
 
                 <ProjectCard image={PortfolioImg} title='My Portfolio' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='https://portfolio-site-1-rho.vercel.app/' github='https://github.com/TheEldaps/Portfolio-Site' />
 
-                <ProjectCard image={ProjectImage} title='Game Board' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='github.com' github='github.com' />
+                <ProjectCard image={LizaCommerce} title='Liza Commerces' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='github.com' github='https://github.com/TheEldaps/Liza-Commerce' />
 
 
             </section>
