@@ -68,7 +68,7 @@ export default function About() {
             <SectionHeader title='About Me' />
 
 
-            <div className='border flex flex-col lg:flex-row gap-10 lg:gap-20'>
+            <div className='flex flex-col lg:flex-row gap-10 lg:gap-20'>
 
                 <div className='min-w-[50%] items-center justify-center about-image'>
                     <Image
