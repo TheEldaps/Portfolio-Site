@@ -1,9 +1,10 @@
 'use client'
 
+import Lottie from "lottie-react"
+import SectionBreaker from '../../public/Section Divider Stroke Path.json'
 import Image from "next/image"
 import PortfolioImage from '../../public/PortfolioImage 1.png'
 import SectionHeader from "./SectionHeader"
-import Lottie from "lottie-react"
 import TickMark from '../../public/Tick Mark.json'
 import TrophyAnimation from '../../public/Trophy animation.json'
 import CongratulationsBadge from '../../public/congratulation badge animation.json'
@@ -66,10 +67,10 @@ export default function About() {
             {/* Section Header */}
             <SectionHeader title='About Me' />
 
-            {/* Content */}
+
             <div className='flex flex-col lg:flex-row gap-10 lg:gap-20'>
-                {/* Image */}
-                <div className='flex min-w-[50%] border-black items-center justify-center about-image'>
+
+                <div className='min-w-[50%] items-center justify-center about-image'>
                     <Image
                         src={PortfolioImage}
                         width={800}
@@ -77,9 +78,10 @@ export default function About() {
                         alt='My picture'
                         className='rounded h-auto block mx-auto md:max-w-125'
                     />
+                    {/* <Lottie animationData={SectionBreaker} loop={true} className='w-[43%] h-20 bg-white mt-[-50px] ml-[100px]' /> */}
                 </div>
 
-                {/* Text */}
+
                 <div className='mt-2 font-[spectral]  text-[#94a3b8] text-[22px] flex flex-col gap-4'>
                     <p className='about-text'> I’m a passionate Frontend Developer who loves turning ideas into beautiful, responsive, and user-friendly web experiences. My journey into tech started with a deep curiosity about how websites work, and over time, that curiosity grew into a strong commitment to mastering modern web development.</p>
                     <p className='about-text'> I began by learning the fundamentals of HTML, CSS, and JavaScript, and gradually moved into building more complex interfaces using React and modern tooling like Vite, Tailwind CSS, and Git. Along the way, I discovered that what excites me most is not just writing code, but crafting clean, intuitive, and visually appealing user interfaces that people actually enjoy using.</p>
