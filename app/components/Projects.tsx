@@ -53,9 +53,9 @@ export default function Projects() {
 
                 <ProjectCard image={TravelEventsImg} title='Travel Events' description='A travel and events showcase website where users can browse vacation highlights, discover special events, and get inspired to plan their next trip' livelink='https://travel-events-chi.vercel.app/' github='https://github.com/TheEldaps/Travel-Events' />
 
-                <ProjectCard image={JadooImg} title='Jadoo' description='A stylish travel landing page that introduces users to featured destinations, travel services, and a simple booking process, all wrapped in an engaging design that encourages exploration and travel planning.' livelink='https://jadoo-travels-self.vercel.app/' github='https://github.com/TheEldaps/Jadoo-Travels' />
+                <ProjectCard image={JadooImg} title='Jadoo' description='A stylish travel landing page that introduces users to featured destinations, travel services, and a simple booking process, all wrapped in an engaging design that encourages exploration and travel planning.' livelink='https://jadoo-travels-chi.vercel.app/' github='https://github.com/TheEldaps/Jadoo-Travels' />
 
-                <ProjectCard image={PortfolioImg} title='My Portfolio' description='A modern personal portfolio website designed to present my projects, skills, and professional journey in a visually appealing and user-friendly way' livelink='https://portfolio-site-1-rho.vercel.app/' github='https://github.com/TheEldaps/Portfolio-Site' />
+                <ProjectCard image={PortfolioImg} title='My Portfolio' description='A modern personal portfolio website designed to present my projects, skills, and professional journey in a visually appealing and user-friendly way' livelink='https://jamesadeleke.vercel.app/' github='https://github.com/TheEldaps/Portfolio-Site' />
 
                 <ProjectCard image={ComingSoon} title='Liza Commerce' description='project designed a nice website where online gaming can be layed, select from a list of games based on your interest and enjoy your time' livelink='github.com' ComingSoon={true} github='https://github.com/TheEldaps/Liza-Commerce' />
 
