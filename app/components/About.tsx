@@ -62,13 +62,13 @@ export default function About() {
 
 
     return (
-        <section id='about-me' className='pt-5 md:pt-15 lg:pb-40 pb-20 px-20 md:px-10 lg:px-20 mt-5 bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
+        <section id='about-me' className='pt-5 md:pt-15 lg:pb-40 pb-20 px-5 md:px-10 lg:px-20 mt-5 bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
 
             {/* Section Header */}
             <SectionHeader title='About Me' />
 
 
-            <div className='flex flex-col lg:flex-row gap-10 lg:gap-20'>
+            <div className='border flex flex-col lg:flex-row gap-10 lg:gap-20'>
 
                 <div className='min-w-[50%] items-center justify-center about-image'>
                     <Image

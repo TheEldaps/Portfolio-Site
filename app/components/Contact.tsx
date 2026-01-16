@@ -1,4 +1,4 @@
-"use client"; // Important for Next.js
+"use client";
 
 import { useState } from "react";
 import emailjs from "emailjs-com";
