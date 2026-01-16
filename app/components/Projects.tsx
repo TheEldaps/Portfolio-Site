@@ -47,9 +47,9 @@ export default function Projects() {
             <SectionDescription description='A curated collection of projects demonstrating my expertise in building modern, vidually appealing web applications' />
 
             <section className='projects-container flex flex-col md:flex-row flex-wrap gap-10 md:gap-20 pt-10 '>
-                <ProjectCard image={TechNestImg} title='TechNest' description='A fully responsive job board web application built to showcase structured data presentation and clean UI design. It displays job listings with essential details such as job title, location, and salary, emphasizing reusable components, modern layout techniques, and a smooth browsing experience across devices.' livelink='https://technest-jobs.vercel.app/' github='https://github.com/TheEldaps/Job-Board' />
+                <ProjectCard image={TechNestImg} title='TechNest' description='A fully responsive job board web application built to showcase structured data presentation and clean UI design. It displays job listings with essential details such as job title, location, and salary etc.' livelink='https://technest-jobs.vercel.app/' github='https://github.com/TheEldaps/Job-Board' />
 
-                <ProjectCard image={GamePointImg} title='Game Point' description='A fun game website where users can play browser-based games directly from the page, offering quick entertainment and interactive experiences.' livelink='https://game-point-chi.vercel.app/' github='https://github.com/TheEldaps/GamePoint' />
+                <ProjectCard image={GamePointImg} title='Game Point' description='A fun game website where users can play browser-based games directly from the page, offering quick entertainment and interactive experiences. Clean UI, mobile first development' livelink='https://game-point-chi.vercel.app/' github='https://github.com/TheEldaps/GamePoint' />
 
                 <ProjectCard image={TravelEventsImg} title='Travel Events' description='A travel and events showcase website where users can browse vacation highlights, discover special events, and get inspired to plan their next trip' livelink='https://travel-events-chi.vercel.app/' github='https://github.com/TheEldaps/Travel-Events' />
 
