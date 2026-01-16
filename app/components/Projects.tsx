@@ -7,11 +7,11 @@ import ComingSoon from '../../public/ComingSoon.json'
 import ProjectCard from "./ProjectCard"
 import SectionHeader from "./SectionHeader"
 import SectionDescription from "./SectionDescription"
-import JadooImg from '../../public/JadooHomepage.png'
-import GamePointImg from '../../public/GamePointHomepage.png'
-import TechNestImg from '../../public/TechNestHomepage.png'
-import TravelEventsImg from '../../public/TravelEventsHomepage.png'
-import PortfolioImg from '../../public/PortfolioHomepage.png'
+import JadooImg from '../../public/jadoo-homepage.png'
+import GamePointImg from '../../public/gamepoint-homepage.png'
+import TechNestImg from '../../public/technest-homepage.png'
+import TravelEventsImg from '../../public/travelevents-homepage.png'
+import PortfolioImg from '../../public/portfolio-homepage.png'
 
 
 
@@ -25,9 +25,9 @@ export default function Projects() {
         cards.forEach((card) => {
             gsap.from(card, {
                 scrollTrigger: {
-                    trigger: card,           // <-- each card triggers individually
-                    start: "top 85%",        // when the top of the card reaches 85% of viewport
-                    toggleActions: "play none none none", // only play once
+                    trigger: card,
+                    start: "top 85%",
+                    toggleActions: "play none none none",
                 },
                 rotationY: 90,
                 opacity: 0,
