@@ -19,6 +19,10 @@ import ReactFormLogo from '../../public/ReactFormLogo.png'
 import ReactRouterLogo from '../../public/ReactRouterLogo.png'
 import TailwindLogo from '../../public/TailwindCSSLogo.png'
 import ZodLogo from '../../public/ZodLogo.png'
+import MaterialLogo from '../../public/MaterialLogo.png'
+import GithubLogo from '../../public/GithubLogo.png'
+import TypescriptLogo from '../../public/TypescriptLogo.png'
+import ViteLogo from '../../public/ViteLogo.png'
 
 
 
@@ -56,16 +60,19 @@ export default function Skills() {
                 <SkillCard skill='CSS' image={CSSLogo} />
                 <SkillCard skill='Javascript' image={JavascriptLogo} />
                 <SkillCard skill='React' image={ReactLogo} />
+                <SkillCard skill='Typescript' image={TypescriptLogo} />
                 <SkillCard skill='Tailwind' image={TailwindLogo} />
                 <SkillCard skill='Next' image={NextLogo} />
                 <SkillCard skill='React Router' image={ReactRouterLogo} />
-                {/* <SkillCard skill='Github' image={ GithubLogo} /> */}
+                <SkillCard skill='Github' image={GithubLogo} />
                 <SkillCard skill='Nodejs' image={NodeLogo} />
-                {/* <SkillCard skill='Material UI' image={ MaterialLogo} /> */}
+                <SkillCard skill='Material UI' image={MaterialLogo} />
                 <SkillCard skill='Zod' image={ZodLogo} />
                 <SkillCard skill='React Hook Form' image={ReactFormLogo} />
                 <SkillCard skill='Gsap' image={GsapLogo} />
                 <SkillCard skill='Figma' image={FigmaLogo} />
+                <SkillCard skill='Vite' image={ViteLogo} />
+
             </div>
         </section>
     )
