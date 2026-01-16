@@ -11,7 +11,7 @@ export default function ProjectCard(
         }) {
     return (
         <div className='project-card w-[80%] max-w-100 md:min-h-150 md:h-fit mx-auto px-5 py-5 bg-[#111827] text-[#94a3b8] font-[spectral] border-2 border-[#1f2933] '>
-            <div className='flex items-center min-h-100 border mb-5'>
+            <div className='flex items-center md:min-h-100 mb-5'>
                 {
                     ComingSoon ?
                         (<Lottie animationData={image} loop={true} className='hero-lottie h-auto ' />)
