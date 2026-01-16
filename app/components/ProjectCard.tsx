@@ -26,7 +26,7 @@ export default function ProjectCard(
 
                     <button className='bg-[#4e46e5] font-[DMSans] rounded-md text-[12px] md:text-[15px] px-3 sm:px-5 py-1 cursor-pointer hover:bg-[#4e46e5d4]'><Link href={livelink}>Live Demo </Link></button>
 
-                    <button className='font-[DMSans] rounded-md border-[#168b9d] border  text-[12px] md:text-[15px] px-3 sm:px-5 py-1 cursor-pointer hover:bg-[#242d43]'><Link href={livelink}>More Details</Link></button>
+                    <button className='font-[DMSans] rounded-md border-[#168b9d] border  text-[12px] md:text-[15px] px-3 sm:px-5 py-1 cursor-pointer hover:bg-[#242d43]'><Link href={livelink}>Github</Link></button>
 
 
                 </div>
