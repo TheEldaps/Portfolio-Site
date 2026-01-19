@@ -1,7 +1,7 @@
 'use client'
 
-import Lottie from "lottie-react"
-import SectionBreaker from '../../public/Section Divider Stroke Path.json'
+// import Lottie from "lottie-react"
+// import SectionBreaker from '../../public/Section Divider Stroke Path.json'
 import Image from "next/image"
 import PortfolioImage from '../../public/PortfolioImage 1.png'
 import SectionHeader from "./SectionHeader"
@@ -18,11 +18,11 @@ gsap.registerPlugin(ScrollTrigger)
 export default function About() {
 
     useEffect(() => {
-        // Image slide-in
+
         gsap.from(".about-image", {
             scrollTrigger: {
                 trigger: ".about-image",
-                start: "top 90%", // when image top reaches 80% of viewport
+                start: "top 90%",
             },
             x: -500,
             opacity: 0,
@@ -30,23 +30,23 @@ export default function About() {
             ease: "expo.out",
         });
 
-        // Text paragraphs fade in + rise individually on scroll
+
         const paragraphs = document.querySelectorAll(".about-text");
         paragraphs.forEach((p) => {
             gsap.from(p, {
                 scrollTrigger: {
-                    trigger: p,             // each paragraph triggers individually
-                    start: "top 90%",       // when paragraph top reaches 85% of viewport
-                    toggleActions: "play none none none", // play once
+                    trigger: p,
+                    start: "top 90%",
+                    toggleActions: "play none none none",
                 },
-                y: 60,                    // move up from 30px below
-                opacity: 0,               // start fully transparent
+                y: 60,
+                opacity: 0,
                 duration: 3,
                 ease: "expo.out",
             });
         });
 
-        // Badges pop
+
         gsap.from(".about-badges > *", {
             scrollTrigger: {
                 trigger: ".about-badges",
@@ -56,7 +56,7 @@ export default function About() {
             opacity: 0,
             stagger: 0.15,
             duration: 2,
-            ease: "back.out(1.7)", // bounce effect
+            ease: "back.out(1.7)",
         });
     }, []);
 
@@ -64,7 +64,9 @@ export default function About() {
     return (
         <section id='about-me' className='pt-5 md:pt-15 lg:pb-40 pb-20 px-5 md:px-10 lg:px-20 mt-5 bg-[linear-gradient(135deg,rgba(255,255,255,0.14)_0%,rgba(255,255,255,0.06)_18%,rgba(255,255,255,0)_38%)]'>
 
-            {/* Section Header */}
+
+
+
             <SectionHeader title='About Me' />
 
 
@@ -93,7 +95,7 @@ export default function About() {
                 </div>
             </div>
 
-            {/* Badges */}
+
             <div className='flex flex-col gap-10 md:flex-row md:flex-wrap items-center justify-between text-[#94a3b8] font-[spectral] text-[30px] mt-20 about-badges'>
                 <Badge animation={TickMark} title='3 years experience' />
                 <Badge animation={TrophyAnimation} title='6 Projects Completed' />

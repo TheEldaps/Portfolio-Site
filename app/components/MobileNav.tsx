@@ -1,6 +1,6 @@
 'use client'
 
-import Image from "next/image"
+// import Image from "next/image"
 import { useState } from "react"
 import NavItems from "./NavItems"
 import Link from "next/link"
